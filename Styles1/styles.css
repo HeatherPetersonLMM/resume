@@ -1,0 +1,38 @@
+body {
+    text-align: center;
+    font-family: 'Share Tech', sans-serif;
+}
+
+.navbar {
+    background: firebrick;
+    text-align: right;
+}
+
+.navlogo {
+    padding: 10px;
+    text-align: left;
+}
+
+li {
+    display: inline;
+    margin-right: 10px;
+
+}
+
+h4 {
+    color: red;
+}
+
+.titleName {
+    color: gray;
+    font-size: 50px;
+}
+
+.heading{
+    color: gray;
+    font-size: 30px;
+}
+
+.link {
+ color: gray;
+}
