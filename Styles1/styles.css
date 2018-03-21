@@ -29,7 +29,8 @@ body {
 }
 
 .link-main:hover {
- color: black;
+ color: white;
+ text-decoration: underline;
 }
 
 .link-bottom {
