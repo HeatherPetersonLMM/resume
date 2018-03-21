@@ -23,12 +23,26 @@ body {
     font-size: 30px;
 }
 
-.link {
- color: gray;
+.link-main {
+ color: white;
+ text-decoration: none;
 }
 
+.link-main:hover {
+ color: black;
+}
+
+.link-bottom {
+    color: lightskyblue;
+    text-decoration: none;
+   }
+   
+.link-bottom:hover {
+color: blue;
+   }
+
 li {
-    display: inline;
-    margin-right: 10px;
+display: inline;
+margin-right: 10px;
 
 }
