@@ -17,8 +17,7 @@
     <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700'>
     <link rel="stylesheet" href='Styles1/styles.css'>
 
-
-
+    <a href="#" class="btt"> Back to top </a>
   </head>
   <!--start main-->
 <section id="main">
@@ -89,6 +88,27 @@
         </ul>
       </div>
     </div>
-        
+</section>
 </body>
+<footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    </script>
+    <script>
+            var scrolled = 400;
+            $(window).scroll(function() {
+              if ( $(window).scrollTop() > scrolled ) {
+                $('a.btt').fadeIn('slow');
+              } else {
+                $('a.btt').fadeOut('slow');
+              }
+            });
+            </script>
+            
+            <script>
+            $('a.btt').click(function() {
+              $('html, body').animate({ scrollTop: 0 }, 700);
+              return false;
+            });
+            </script>
+</footer>
 </html>
