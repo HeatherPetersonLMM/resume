@@ -42,13 +42,18 @@ a.btt {
 }
 
 .titleName {
-    color: gray;
+    color: black;
     font-size: 50px;
 }
 
-.heading{
+.heading {
     color: gray;
     font-size: 30px;
+}
+
+.sub-head {
+    color: red;
+    font-size: 10px;
 }
 
 .link-main {
