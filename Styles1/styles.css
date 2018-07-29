@@ -1,6 +1,6 @@
 body {
     text-align: center;
-    font-family: 'Share Tech', sans-serif;
+    font-family: 'PT Mono', monospace;
 }
 
 .navbar {
@@ -44,11 +44,13 @@ a.btt {
 .titleName {
     color: black;
     font-size: 50px;
+    text-shadow: 2px 2px 2px #aaa;
 }
 
 .heading {
     color: gray;
     font-size: 30px;
+    text-shadow: 2px 2px 2px #aaa;
 }
 
 .sub-head {
@@ -67,7 +69,7 @@ a.btt {
 }
 
 .link-bottom {
-    color: lightskyblue;
+    color: white;
     text-decoration: none;
    }
    
@@ -80,3 +82,12 @@ display: inline;
 margin-right: 10px;
 
 }
+
+.resume{
+    text-shadow: 2px 2px 2px #aaa;
+}
+
+.endNav{
+    background: firebrick;
+    text-align: center;
+    }
